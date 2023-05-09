@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <listeners>
+        <listener class-name="com.tutorialninja.demo.sw5.customlisteners.CustomListeners"></listener>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+<test name="AccountLoginPageTest">
+    <parameter name="email" value="Prim98473@gmail.com"></parameter>
+   <parameter name="password" value="Prime1234"></parameter>
+    <classes>
+        <class name="com.tutorialninja.demo.sw5.testsuite.AccountLoginPageTest"></class>
+    </classes>
+</test>
+</suite>

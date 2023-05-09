@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AccountLoginPageTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9.043">
+  <properties />
+  
+  
+            <testcase name="loginToApplication" time="9.043" classname="com.tutorialninja.demo.sw5.testsuite.AccountLoginPageTest" />
+      
+</testsuite>
